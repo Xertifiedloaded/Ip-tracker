@@ -1,0 +1,49 @@
+.main {
+  min-height: 40vh;
+  width: 100%;
+  background-image: url("../../assets/images/pattern-bg.png");
+}
+
+.main>h1 {
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+  font-size: 38px;
+}
+
+.main .inputs {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.main .inputs input {
+  width: 90%;
+  height: 50px;
+  outline: none;
+  padding: 0px 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+}
+
+.inputs>img {
+  width: 10px;
+  padding: 19.5px;
+  background: rgba(0, 0, 0, 0.623);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+}
+
+@media screen and (max-width:758px) {
+  .main .inputs {
+    width: 85%;
+  }
+  .main>h1 {
+    font-size: 28px;
+  }
+
+}
